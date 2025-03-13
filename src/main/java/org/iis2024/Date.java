@@ -60,12 +60,13 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  // Constructor modified by the collaborator
-public Date(int tag, int monat, int jahr) {
- this.day = tag;
- this.month = monat;
- this.year = jahr;
-} 
+// Constructor original restaurado
+public Date(int day, int month, int year) {
+    this.day = day;
+    this.month = month;
+    this.year = year;
+}
+
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
